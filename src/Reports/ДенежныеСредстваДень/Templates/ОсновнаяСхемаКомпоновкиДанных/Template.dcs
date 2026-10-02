@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ТаблицаДат</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yy</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+    ДОБАВИТЬКДАТЕ(&amp;НачалоПериода, ДЕНЬ, aa.a * 1000 + bb.b * 100 + cc.c * 10 + dd.d) КАК Период
+{ВЫБРАТЬ
+    Период}
+ИЗ
+    (ВЫБРАТЬ
+        0 КАК a
+    
+    ОБЪЕДИНИТЬ
+    
+    ВЫБРАТЬ
+        1
+    
+    ОБЪЕДИНИТЬ
+    
+    ВЫБРАТЬ
+        2
+    
+    ОБЪЕДИНИТЬ
+    
+    ВЫБРАТЬ
+        3
+    
+    ОБЪЕДИНИТЬ
+    
+    ВЫБРАТЬ
+        4
+    
+    ОБЪЕДИНИТЬ
+    
+    ВЫБРАТЬ
+        5
+    
+    ОБЪЕДИНИТЬ
+    
+    ВЫБРАТЬ
+        6
+    
+    ОБЪЕДИНИТЬ
+    
+    ВЫБРАТЬ
+        7
+    
+    ОБЪЕДИНИТЬ
+    
+    ВЫБРАТЬ
+        8
+    
+    ОБЪЕДИНИТЬ
+    
+    ВЫБРАТЬ
+        9) КАК aa
+        ПОЛНОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+            0 КАК b
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            1
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            2
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            3
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            4
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            5
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            6
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            7
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            8
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            9) КАК bb
+        ПО (ИСТИНА)
+        ПОЛНОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+            0 КАК c
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            1
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            2
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            3
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            4
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            5
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            6
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            7
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            8
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            9) КАК cc
+        ПО (ИСТИНА)
+        ПОЛНОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+            0 КАК d
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            1
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            2
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            3
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            4
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            5
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            6
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            7
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            8
+        
+        ОБЪЕДИНИТЬ
+        
+        ВЫБРАТЬ
+            9) КАК dd
+        ПО (ИСТИНА)
+ГДЕ
+    aa.a * 1000 + bb.b * 100 + cc.c * 10 + dd.d &lt;= РАЗНОСТЬДАТ(&amp;НачалоПериода, &amp;КонецПериода, ДЕНЬ)</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ОстаткиДС</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Валюта</dataPath>
+			<field>Валюта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Касса</dataPath>
+			<field>Касса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сумма</dataPath>
+			<field>Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Счет</dataPath>
+			<field>Счет</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+    ДС.Период,
+    ДС.Сумма
+ИЗ
+    (ВЫБРАТЬ
+        &amp;Период КАК Период,
+        КассаОстатки.СуммаОстаток КАК Сумма
+    ИЗ
+        РегистрНакопления.Касса.Остатки(&amp;Период, ) КАК КассаОстатки
+    
+    ОБЪЕДИНИТЬ ВСЕ
+    
+    ВЫБРАТЬ
+        &amp;Период,
+        БанкОстатки.СуммаОстаток
+    ИЗ
+        РегистрНакопления.Банк.Остатки(&amp;Период, ) КАК БанкОстатки) КАК ДС</query>
+	</dataSet>
+	<dataSetLink>
+		<sourceDataSet>ТаблицаДат</sourceDataSet>
+		<destinationDataSet>ОстаткиДС</destinationDataSet>
+		<sourceExpression>Период</sourceExpression>
+		<destinationExpression>Период</destinationExpression>
+		<parameter>Период</parameter>
+		<parameterListAllowed>false</parameterListAllowed>
+	</dataSetLink>
+	<totalField>
+		<dataPath>Сумма</dataPath>
+		<expression>Сумма(Сумма)</expression>
+	</totalField>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Период</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сумма</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">Custom</v8:variant>
+						<v8:date>2012-01-01T00:00:00</v8:date>
+					</dcscor:value>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>5f472565-b4cf-4687-9ff2-7dd14a5914ec</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfNextDay</v8:variant>
+					</dcscor:value>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>eacc1711-364d-493c-823d-c751550ed239</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ТипДиаграммы</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:ChartType">Step</dcscor:value>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ТипДиаграммы.РасположениеЛегенды</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionChartLegendPlacement">None</dcscor:value>
+					</dcscor:item>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemChart">
+				<dcsset:point>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Период</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:point>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

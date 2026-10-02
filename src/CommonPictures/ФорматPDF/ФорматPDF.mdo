@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9142db5-8f8b-49fa-bba8-b905f7ba5f90">
+  <name>ФорматPDF</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формат PDF</value>
+  </synonym>
+</mdclass:CommonPicture>

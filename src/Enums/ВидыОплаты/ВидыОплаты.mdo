@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d270b76-8be6-4917-925c-d955c9783f89">
+  <producedTypes>
+    <refType typeId="4dc4133a-672c-41bf-82d1-c48810cac912" valueTypeId="31207aea-7ef7-4d53-83f9-92d04ce074e9"/>
+    <listType typeId="8fe4b6ce-665a-43af-9eb8-49de58f21c6e" valueTypeId="bcc4877f-e4ec-416c-ba12-64b17b6a8a6e"/>
+    <managerType typeId="4b743dae-b583-4ee1-b043-49a4675499ac" valueTypeId="f42d8b22-9341-4d78-ba09-33bd30dfcc76"/>
+  </producedTypes>
+  <name>ВидыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды оплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="63cc955c-8807-47f2-b65e-b5d7f5aa8cc4">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07839e02-0f0b-42e1-9457-eb62f0cb2843">
+    <name>Карточка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f743e0a-27e6-4ff1-a8ec-d0a6070b1220">
+    <name>Наличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

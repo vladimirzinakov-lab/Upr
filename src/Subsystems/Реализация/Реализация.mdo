@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3152b101-70e2-4ce4-b2c1-11bc6f9b83ca">
+  <name>Реализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход-Расход</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаФинансы</picture>
+  </picture>
+  <content>Document.Реализация</content>
+  <content>AccumulationRegister.Покупатели</content>
+  <content>AccumulationRegister.Касса</content>
+  <content>AccumulationRegister.Банк</content>
+  <content>AccumulationRegister.Расходы</content>
+  <content>Report.ОСВ</content>
+  <content>Report.ВедомостьПоПокупателям</content>
+  <content>Report.Касса</content>
+  <content>Report.Банк</content>
+  <content>AccumulationRegister.Доходы</content>
+  <content>AccumulationRegister.Поставщики</content>
+  <content>Report.ВедомостьПоПоставщикам</content>
+  <subsystems>Касса</subsystems>
+  <subsystems>Банк</subsystems>
+  <subsystems>Поступление</subsystems>
+</mdclass:Subsystem>

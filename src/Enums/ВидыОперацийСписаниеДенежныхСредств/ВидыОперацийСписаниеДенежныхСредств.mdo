@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ff13bec-e0e4-4d67-9430-ab4062acb216">
+  <producedTypes>
+    <refType typeId="88e19d18-c912-4529-ac18-d45dacf6d9b0" valueTypeId="2b8ff90d-c173-4c29-99c6-214a119a41f2"/>
+    <listType typeId="8a209fe9-44e7-4264-9dc0-8e1222596ee7" valueTypeId="8d7247ff-20db-4f0b-ab86-5c1024dc50f9"/>
+    <managerType typeId="d1075479-1e54-47b4-b5f9-fb5fddf6c288" valueTypeId="72ea1392-05a2-4d74-8526-d08ec00c4a5c"/>
+  </producedTypes>
+  <name>ВидыОперацийСписаниеДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций списания денежных средств</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5c4eb50c-eaaa-4562-801a-1ab72295b23b">
+    <name>ОплатаПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата поставщику</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="403da59b-fc0c-4c50-a155-702ae0768dde">
+    <name>ПереводНаДругойСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод на другой счет организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1639209-61fc-4242-be32-1510e37d25f7">
+    <name>ПрочееСписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее списание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3203cbee-2277-4892-bdf1-08a10ec6002d">
+    <name>СписаниеНаСчетМиша</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание на счет Миша</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

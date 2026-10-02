@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="084326af-b514-48d2-9f17-6bb27114faf1">
+  <producedTypes>
+    <refType typeId="b8d1272c-cb39-4709-a897-e59c93cfcc31" valueTypeId="67a7d326-2d01-4a34-b7d2-194d2102e153"/>
+    <listType typeId="6269500e-f794-4ee6-8895-dd29938f9722" valueTypeId="b3d5165f-2ed1-417f-8537-86d2503113cf"/>
+    <managerType typeId="3a536683-84e3-4808-8253-7385afc6b746" valueTypeId="57396a13-3555-4873-aa33-5c07d823994d"/>
+  </producedTypes>
+  <name>СостояниеРВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние РВ</value>
+  </synonym>
+  <comment>Состояние листа учета рабочего времени</comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="af977a30-1d04-40a4-99ed-cf5c80c5bcc4">
+    <name>Оплачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7057c315-772c-4005-81bd-002d04fcfc58">
+    <name>КОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>К оплате</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d599a40-be05-4b1f-9db2-7265b3104eec">
+    <name>НеОплачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не оплачено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af9f512a-8140-422a-9ba9-1136710da6d3">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b76e371e-2eea-41d5-8873-b5ce1914b3eb">
+    <name>Приостановлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приостановлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f4492a2-5a25-4ea5-9b30-b0f77c71b303">
+    <name>Отмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b07f2e9d-2347-48ea-afa3-27d685c11979">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

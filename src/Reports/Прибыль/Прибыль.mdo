@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9fcc17d-de89-4982-9a93-461cb7f5a87b">
+  <producedTypes>
+    <objectType typeId="3211985d-14b3-42e5-b6f4-a07665498369" valueTypeId="78060ee7-d8e2-416b-a03f-84d40c836216"/>
+    <managerType typeId="ca641b7a-ad5c-4eae-85f0-af9a8e96198b" valueTypeId="fcdbeb14-27ef-4247-b52e-3d5ed16cc03e"/>
+  </producedTypes>
+  <name>Прибыль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прибыль</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Прибыль.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Прибыль.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="8e4d74fe-d0ac-48c4-934f-fb770d179632">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8591a4ea-9e42-4c11-a05b-251e24345924">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

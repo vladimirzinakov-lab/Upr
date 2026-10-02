@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bcc7242-176e-47f3-8b08-3cf88a0b7cb3">
+  <name>ПодсистемаМониторингЦелевыхПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема мониторинг целевых показателей</value>
+  </synonym>
+</mdclass:CommonPicture>

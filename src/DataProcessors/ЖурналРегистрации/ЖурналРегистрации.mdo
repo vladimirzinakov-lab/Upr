@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9bc8b72-dbba-4791-9be3-237b9c10d4bd">
+  <producedTypes>
+    <objectType typeId="7a9940b0-407a-4bb2-b299-f54f3bc14865" valueTypeId="e339f99c-9096-4475-9f76-cc1920d91667"/>
+    <managerType typeId="fcd46aa8-f6f6-4acb-9d4f-f35f5aabce9c" valueTypeId="0ee79d59-66a5-49bb-9b8c-8d3d3d661c09"/>
+  </producedTypes>
+  <name>ЖурналРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал регистрации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЖурналРегистрации.Form.ЖурналРегистрации</defaultForm>
+  <forms uuid="f50127c3-e37a-4a9a-8c27-967382bf9ba2">
+    <name>ЖурналРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал регистрации</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="afbe64f7-5f0c-44c8-83ac-eab47710ca2f">
+    <name>ОтборЖурналаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор журнала регистрации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aa6c2f7b-5342-44ec-b9aa-bd417d47d7b1">
+    <name>РедакторСоставаСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор состава свойства</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e46fbdd4-f894-4a19-b1bb-f45d21982336">
+    <name>ФормаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

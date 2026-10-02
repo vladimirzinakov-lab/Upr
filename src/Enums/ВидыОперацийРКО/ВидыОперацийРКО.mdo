@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbfefe49-9d67-40a7-878d-865d529983a7">
+  <producedTypes>
+    <refType typeId="c907381c-28b8-4441-b1be-62af67d3410c" valueTypeId="2283b63e-9437-4dcf-9322-a13ca572872a"/>
+    <listType typeId="9f5c7c08-7d0b-4ee2-993b-141ea4b2e7a2" valueTypeId="2da170cb-04c8-48ed-9d51-1b4a1bfc13c5"/>
+    <managerType typeId="c2b9a8b6-2112-4671-9abd-95c579a17d7e" valueTypeId="9ccad924-c0c6-41c5-bc16-d63fb28c938b"/>
+  </producedTypes>
+  <name>ВидыОперацийРКО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;РКО&quot;</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fcc27902-e336-47b3-af41-98d5491f3ec5">
+    <name>ОплатаПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата поставщику</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="d846bda6-2b67-4349-82d5-168492a97d3c">
+    <name>ВзносНаличнымиВБанк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взнос наличными в банк</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="705b4cd6-8783-4c00-8b31-40a224ca5a3a">
+    <name>ПрочийРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочий расход</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="f24a4343-c107-4327-8988-c72db7d70c8a">
+    <name>РасходСчетМиша</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход счет Миша</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

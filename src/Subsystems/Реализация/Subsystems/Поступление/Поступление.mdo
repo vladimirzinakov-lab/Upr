@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72371df5-4f29-4454-b4f7-2ca144ed3238">
+  <name>Поступление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.Поступление</content>
+  <content>Document.КорректировкаДолгаПоставщику</content>
+  <parentSubsystem>Subsystem.Реализация</parentSubsystem>
+</mdclass:Subsystem>

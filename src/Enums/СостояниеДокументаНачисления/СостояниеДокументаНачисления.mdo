@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9299023e-ac6a-4974-b1f6-70e102ed0a59">
+  <producedTypes>
+    <refType typeId="ce021b4b-8c6e-48a3-80df-0070886b7221" valueTypeId="810bea23-3df5-4ca6-8b09-9895a934662c"/>
+    <listType typeId="ac11f335-0b71-4c45-9a8c-334e597998a5" valueTypeId="c360ff5d-c4ae-4ceb-a505-65dcb200d916"/>
+    <managerType typeId="50fe0261-4883-460c-888e-4119b1e30200" valueTypeId="1ca36efc-aa0e-4886-8799-a41f2d13625b"/>
+  </producedTypes>
+  <name>СостояниеДокументаНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние документа начисления</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fa998198-9fd0-4f15-972b-aef74f206dfe">
+    <name>Оплачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f66afa26-e42c-447d-91c3-64c447f67f79">
+    <name>НеОплачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не оплачено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

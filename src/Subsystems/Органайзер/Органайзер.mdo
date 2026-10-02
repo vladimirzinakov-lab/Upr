@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efc672d3-fdc3-4a4b-a050-f22a19309238">
+  <name>Органайзер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Органайзер</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодистемаОрганайзер</picture>
+  </picture>
+  <content>InformationRegister.Сообщения</content>
+  <subsystems>БизнесПроцессы</subsystems>
+</mdclass:Subsystem>

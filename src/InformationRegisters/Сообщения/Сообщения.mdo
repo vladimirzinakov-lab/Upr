@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56d1d726-31e6-49dd-a102-d81d1be36223">
+  <producedTypes>
+    <selectionType typeId="02308365-888d-4787-8b97-cc0381f94781" valueTypeId="bbc337bb-c7fd-40fd-8e08-928a5a8c29ae"/>
+    <listType typeId="77874f7f-7a0f-44ec-b715-6392c5247f01" valueTypeId="2898fa8e-5fbf-4c19-82d2-4a66196a2753"/>
+    <managerType typeId="e4468993-1bef-4c8f-8a4e-ca64a9ead19a" valueTypeId="b7eb494d-9b1e-4b77-846e-808c23c44d16"/>
+    <recordSetType typeId="adcf7012-05fa-4720-bd80-65dade62c9f0" valueTypeId="47528dfd-f837-445a-9cd4-7f676d447aae"/>
+    <recordKeyType typeId="51b44f75-af15-4c3f-b413-104726f70f09" valueTypeId="26c04133-4d85-46e5-b66a-4836e04fd88e"/>
+    <recordType typeId="d343f9da-3047-445a-8681-41beab687697" valueTypeId="975c1cb1-b497-486b-b0db-de3ff8280138"/>
+    <recordManagerType typeId="a467a52a-116f-48fb-94f2-f4506619243f" valueTypeId="97867842-01b6-4270-ad8f-4dac2e9c847a"/>
+  </producedTypes>
+  <name>Сообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="668db8ee-e012-41f6-99cd-5158b22caccd">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="7f59127c-5e6e-48ed-953a-d2dccd798220">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

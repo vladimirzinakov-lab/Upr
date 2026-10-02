@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="499fe89b-d14b-461c-a880-89878c64db49">
+  <producedTypes>
+    <refType typeId="a2125ed4-bde1-4d32-a7a0-f62188baf18d" valueTypeId="8e8af25f-5c73-4f6c-bd8b-b032dc0ace73"/>
+    <listType typeId="f92ebed0-953f-4137-805d-bd18f78118da" valueTypeId="7f1a4ca0-a730-4623-b1d1-b9fbc8e20008"/>
+    <managerType typeId="681dc8d6-0b34-4c1f-a8f1-fd015a11a266" valueTypeId="b593db22-5dce-4ebb-978b-8b7dfdd8a259"/>
+  </producedTypes>
+  <name>ВидыОперацийПоступлениеДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций поступления денежных средств</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0aa19b2b-7918-4fae-b8b9-f701c68e1868">
+    <name>ОплатаПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата от покупателя</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="5a14bcff-82e1-4c8e-b6a3-559c89320490">
+    <name>ПрочееПоступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее поступление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dec6cb3f-e0c9-49e7-a06f-ae3e210083ac">
+    <name>ПоступлениеНаСчетМиша</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление на счет Миша</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
