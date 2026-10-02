@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Контакты</value>
   </synonym>
+  <comment>это справочник Контакты (комментарий 7)</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Контакты.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Контакты.StandardAttribute.Code</inputByString>
@@ -95,6 +96,10 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контакты</value>
+  </objectPresentation>
   <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
