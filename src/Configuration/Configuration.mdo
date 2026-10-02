@@ -41,7 +41,6 @@
   <subsystems>Subsystem.Справочники</subsystems>
   <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.Настройка</subsystems>
-  <subsystems>Subsystem.Печать</subsystems>
   <commonPictures>CommonPicture.АктивностьСтрокКоммерческогоПредложения</commonPictures>
   <commonPictures>CommonPicture.АктивныеСтрокиКоммерческогоПредложенияКлиенту</commonPictures>
   <commonPictures>CommonPicture.Взаимодействия</commonPictures>
@@ -135,10 +134,6 @@
   <commonPictures>CommonPicture.ТекстовыйФайл</commonPictures>
   <commonPictures>CommonPicture.ТиповоеСоглашениеСКлиентом</commonPictures>
   <commonPictures>CommonPicture.ТолькоСкрепка</commonPictures>
-  <commonPictures>CommonPicture.ФорматExcel</commonPictures>
-  <commonPictures>CommonPicture.ФорматHTML</commonPictures>
-  <commonPictures>CommonPicture.ФорматPDF</commonPictures>
-  <commonPictures>CommonPicture.ФорматTXT</commonPictures>
   <commandGroups>CommandGroup.Печать</commandGroups>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
@@ -163,7 +158,6 @@
   <enums>Enum.ВидыОперацийРКО</enums>
   <enums>Enum.СпособыВыводаОтчета</enums>
   <enums>Enum.СостояниеДокументаНачисления</enums>
-  <enums>Enum.ФорматыСохраненияОтчетов</enums>
   <reports>Report.ОСВ</reports>
   <reports>Report.ВедомостьПоПокупателям</reports>
   <reports>Report.ВедомостьПоПоставщикам</reports>
