@@ -145,10 +145,7 @@
   <commonPictures>CommonPicture.ФорматHTML</commonPictures>
   <commonPictures>CommonPicture.ФорматPDF</commonPictures>
   <commonPictures>CommonPicture.ФорматTXT</commonPictures>
-  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <commandGroups>CommandGroup.Печать</commandGroups>
-  <commonForms>CommonForm.Вопрос</commonForms>
-  <commonForms>CommonForm.Ошибка</commonForms>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
