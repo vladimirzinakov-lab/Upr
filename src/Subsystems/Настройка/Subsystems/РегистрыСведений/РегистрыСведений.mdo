@@ -6,5 +6,6 @@
     <value>Регистры сведений</value>
   </synonym>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.Сообщения</content>
   <parentSubsystem>Subsystem.Настройка</parentSubsystem>
 </mdclass:Subsystem>

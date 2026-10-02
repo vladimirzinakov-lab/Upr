@@ -44,7 +44,6 @@
   <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.Настройка</subsystems>
   <subsystems>Subsystem.Печать</subsystems>
-  <subsystems>Subsystem.Органайзер</subsystems>
   <commonPictures>CommonPicture.АктивностьСтрокКоммерческогоПредложения</commonPictures>
   <commonPictures>CommonPicture.АктивныеСтрокиКоммерческогоПредложенияКлиенту</commonPictures>
   <commonPictures>CommonPicture.Взаимодействия</commonPictures>
@@ -102,7 +101,6 @@
   <commonPictures>CommonPicture.ПереслатьЭлектронноеПисьмо</commonPictures>
   <commonPictures>CommonPicture.ПересчитыватьЦеныАвтоматически</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыФайлов</commonPictures>
-  <commonPictures>CommonPicture.ПодистемаОрганайзер</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаИТС</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаИТС2</commonPictures>
