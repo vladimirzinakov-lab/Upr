@@ -39,7 +39,6 @@
   </languages>
   <subsystems>Subsystem.Реализация</subsystems>
   <subsystems>Subsystem.Справочники</subsystems>
-  <subsystems>Subsystem.ИТС</subsystems>
   <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.Настройка</subsystems>
   <subsystems>Subsystem.Печать</subsystems>
@@ -101,8 +100,6 @@
   <commonPictures>CommonPicture.ПересчитыватьЦеныАвтоматически</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыФайлов</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаИТС</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаИТС2</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаМаркетинг</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаМониторингЦелевыхПоказателей</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаНормативноСправочнаяИнформация</commonPictures>
@@ -160,8 +157,6 @@
   <documents>Document.СписаниеСРасчетногоСчета</documents>
   <documents>Document.КорректировкаДолгаПоставщику</documents>
   <enums>Enum.ВидыОплаты</enums>
-  <enums>Enum.ВидДоговораИТС</enums>
-  <enums>Enum.СостояниеПодпискиИТС</enums>
   <enums>Enum.ВидыОперацийПоступлениеДенежныхСредств</enums>
   <enums>Enum.ВидыОперацийСписаниеДенежныхСредств</enums>
   <enums>Enum.ВидыОперацийПКО</enums>
