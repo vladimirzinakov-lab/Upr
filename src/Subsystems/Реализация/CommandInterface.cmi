@@ -25,10 +25,6 @@
       <command>Report.ОСВ.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
-    <visibilityFragments>
-      <command>Report.ВедомостьПоПоставщикам.StandardCommand.Open</command>
-      <visible/>
-    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -53,7 +49,6 @@
       <group>ActionsPanelReports</group>
       <commands>Report.ОСВ.StandardCommand.Open</commands>
       <commands>Report.ВедомостьПоПокупателям.StandardCommand.Open</commands>
-      <commands>Report.ВедомостьПоПоставщикам.StandardCommand.Open</commands>
       <commands>Report.Банк.StandardCommand.Open</commands>
       <commands>Report.Касса.StandardCommand.Open</commands>
     </orderFragments>

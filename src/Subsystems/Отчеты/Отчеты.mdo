@@ -10,13 +10,9 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ПодсистемаМониторингЦелевыхПоказателей</picture>
   </picture>
-  <content>Report.Расходы</content>
-  <content>Report.Доходы</content>
   <content>Report.Прибыль</content>
   <content>Report.ДенежныеСредстваМесяц</content>
   <content>Report.ДенежныеСредстваДень</content>
   <content>Report.СтруктураРасходов</content>
   <content>Report.СтатьиРасходовПомесячно</content>
-  <content>AccumulationRegister.Расходы</content>
-  <content>AccumulationRegister.Доходы</content>
 </mdclass:Subsystem>

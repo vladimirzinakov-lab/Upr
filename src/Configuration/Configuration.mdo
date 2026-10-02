@@ -50,7 +50,6 @@
   <commandGroups>CommandGroup.Печать</commandGroups>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
-  <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Кассы</catalogs>
   <catalogs>Catalog.Счета</catalogs>
@@ -71,7 +70,6 @@
   <enums>Enum.СостояниеДокументаНачисления</enums>
   <reports>Report.ОСВ</reports>
   <reports>Report.ВедомостьПоПокупателям</reports>
-  <reports>Report.ВедомостьПоПоставщикам</reports>
   <reports>Report.Касса</reports>
   <reports>Report.Банк</reports>
   <reports>Report.Расходы</reports>

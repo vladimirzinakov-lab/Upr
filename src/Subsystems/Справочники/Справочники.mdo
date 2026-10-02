@@ -12,7 +12,6 @@
   </picture>
   <content>Catalog.Статьи</content>
   <content>Catalog.Валюты</content>
-  <content>Catalog.Сотрудники</content>
   <content>Catalog.Партнеры</content>
   <subsystems>КассыСчета</subsystems>
   <subsystems>Контрагенты</subsystems>
