@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d47e1bc-70b7-4a7b-a2df-f37f2753d45f">
-  <name>ПодсистемаУправлениеЗапасамиИЗакупками</name>
-  <synonym>
-    <key>ru</key>
-    <value>Подсистема управление запасами и закупками</value>
-  </synonym>
-</mdclass:CommonPicture>

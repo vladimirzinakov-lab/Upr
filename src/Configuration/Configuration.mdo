@@ -41,99 +41,12 @@
   <subsystems>Subsystem.Справочники</subsystems>
   <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.Настройка</subsystems>
-  <commonPictures>CommonPicture.АктивностьСтрокКоммерческогоПредложения</commonPictures>
-  <commonPictures>CommonPicture.АктивныеСтрокиКоммерческогоПредложенияКлиенту</commonPictures>
-  <commonPictures>CommonPicture.Взаимодействия</commonPictures>
-  <commonPictures>CommonPicture.ВнешнееОборудованиеОтчетБезГашения</commonPictures>
-  <commonPictures>CommonPicture.ВнешнееОборудованиеОтчетСГашением</commonPictures>
-  <commonPictures>CommonPicture.ВнешнееОборудованиеТСД16</commonPictures>
-  <commonPictures>CommonPicture.ВнешнееОборудованиеТСД32</commonPictures>
-  <commonPictures>CommonPicture.ВнешнееОборудованиеФР16</commonPictures>
-  <commonPictures>CommonPicture.ВнешнееОборудованиеФР32</commonPictures>
-  <commonPictures>CommonPicture.ВыполнитьОбменДанными</commonPictures>
-  <commonPictures>CommonPicture.ГруппаФункций</commonPictures>
-  <commonPictures>CommonPicture.ДобавитьДопСвойствоВНабор</commonPictures>
-  <commonPictures>CommonPicture.ДокументЗакрыт</commonPictures>
-  <commonPictures>CommonPicture.ДополнительныеРеквизитыСведения</commonPictures>
-  <commonPictures>CommonPicture.ДополнительныеСведения</commonPictures>
-  <commonPictures>CommonPicture.ЗагрузитьДействующиеЦены</commonPictures>
-  <commonPictures>CommonPicture.ЗаказКлиента</commonPictures>
-  <commonPictures>CommonPicture.ЗаказПоставщику</commonPictures>
-  <commonPictures>CommonPicture.Закрепить</commonPictures>
-  <commonPictures>CommonPicture.ЗаполнитьЭтапыГрафикаОплаты</commonPictures>
-  <commonPictures>CommonPicture.ЗначокСклад32</commonPictures>
-  <commonPictures>CommonPicture.ЗначокФинансы32</commonPictures>
-  <commonPictures>CommonPicture.ИерархияСправочника</commonPictures>
-  <commonPictures>CommonPicture.ИндивидуальноеСоглашениеСКлиентом</commonPictures>
-  <commonPictures>CommonPicture.Информация32</commonPictures>
-  <commonPictures>CommonPicture.ИсторияВерсий</commonPictures>
-  <commonPictures>CommonPicture.КартинкаВДеревеСвойств</commonPictures>
-  <commonPictures>CommonPicture.КартинкаЗакончитьРедактирование</commonPictures>
-  <commonPictures>CommonPicture.КартинкаЗанять</commonPictures>
-  <commonPictures>CommonPicture.КартинкаОпубликовать</commonPictures>
-  <commonPictures>CommonPicture.КартинкаОсвободить</commonPictures>
-  <commonPictures>CommonPicture.КартинкаОткрыть</commonPictures>
-  <commonPictures>CommonPicture.КартинкаПометка</commonPictures>
-  <commonPictures>CommonPicture.КартинкаРедактировать</commonPictures>
-  <commonPictures>CommonPicture.КартинкаСохранитьКак</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияВидыАктивныхПользователей</commonPictures>
   <commonPictures>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</commonPictures>
-  <commonPictures>CommonPicture.КоллекцияДляПомеченныхНаУдалениеОбъектов</commonPictures>
-  <commonPictures>CommonPicture.КоммерческоеПредложениеКлиенту</commonPictures>
-  <commonPictures>CommonPicture.КонтактнаяИнформация</commonPictures>
-  <commonPictures>CommonPicture.Найти2</commonPictures>
-  <commonPictures>CommonPicture.НастройкаОбработкиРегламентныхЗаданий</commonPictures>
-  <commonPictures>CommonPicture.НеактивныеСтрокиКоммерческогоПредложенияКлиенту</commonPictures>
-  <commonPictures>CommonPicture.НовыйПоШтрихкоду</commonPictures>
-  <commonPictures>CommonPicture.ОбработатьРегламентноеЗаданиеВручную</commonPictures>
-  <commonPictures>CommonPicture.ОтветитьНаЭлектронноеПисьмо</commonPictures>
-  <commonPictures>CommonPicture.ОтветитьНаЭлектронноеПисьмоВсем</commonPictures>
-  <commonPictures>CommonPicture.ОтдельныйСеансОбработкиРегламентныхЗаданий</commonPictures>
-  <commonPictures>CommonPicture.ОтправитьEmail</commonPictures>
-  <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
-  <commonPictures>CommonPicture.Ошибка32</commonPictures>
-  <commonPictures>CommonPicture.ОшибкаОбработкиРегламентныхЗаданий</commonPictures>
-  <commonPictures>CommonPicture.Папка</commonPictures>
-  <commonPictures>CommonPicture.ПараметрыОбменаДанными</commonPictures>
-  <commonPictures>CommonPicture.ПереслатьЭлектронноеПисьмо</commonPictures>
-  <commonPictures>CommonPicture.ПересчитыватьЦеныАвтоматически</commonPictures>
-  <commonPictures>CommonPicture.ПиктограммыФайлов</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаАдминистрирование</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаМаркетинг</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаМониторингЦелевыхПоказателей</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаНормативноСправочнаяИнформация</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаОбменДанными</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаОптовыеПродажи</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаПоручения</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаПродажи</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаРаботаСФайлами</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаСервис</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаСервисноеОбсуживание</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаУправлениеЗапасамиИЗакупками</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаУправленияДоступом</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаУчетВремени</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаФинансы</commonPictures>
-  <commonPictures>CommonPicture.ПодсистемаФинансы1</commonPictures>
-  <commonPictures>CommonPicture.ПолнотекстовыйПоискДалее</commonPictures>
-  <commonPictures>CommonPicture.ПолнотекстовыйПоискНазад</commonPictures>
-  <commonPictures>CommonPicture.ПометкаУдаленияПользователя</commonPictures>
-  <commonPictures>CommonPicture.Предупреждение32</commonPictures>
-  <commonPictures>CommonPicture.Приоритеты</commonPictures>
-  <commonPictures>CommonPicture.ПроверитьФормулу</commonPictures>
-  <commonPictures>CommonPicture.РазрешитьРедактированиеКлючевыхРеквизитовОбъекта</commonPictures>
-  <commonPictures>CommonPicture.РассчитатьВычисляемыеЦены</commonPictures>
-  <commonPictures>CommonPicture.РассчитатьСкидкиНаценки</commonPictures>
-  <commonPictures>CommonPicture.РассчитатьЦены</commonPictures>
-  <commonPictures>CommonPicture.СоглашениеСПоставщиком</commonPictures>
-  <commonPictures>CommonPicture.СостоянияДокумента</commonPictures>
-  <commonPictures>CommonPicture.СостоянияКоммерческихПредложенийКлиентам</commonPictures>
-  <commonPictures>CommonPicture.СостоянияСоглашенияСКлиентом</commonPictures>
-  <commonPictures>CommonPicture.СостоянияСоглашенияСПоставщиком</commonPictures>
-  <commonPictures>CommonPicture.СтатусыДокумента</commonPictures>
   <commonPictures>CommonPicture.Сумма</commonPictures>
-  <commonPictures>CommonPicture.ТекстовыйФайл</commonPictures>
-  <commonPictures>CommonPicture.ТиповоеСоглашениеСКлиентом</commonPictures>
-  <commonPictures>CommonPicture.ТолькоСкрепка</commonPictures>
   <commandGroups>CommandGroup.Печать</commandGroups>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
