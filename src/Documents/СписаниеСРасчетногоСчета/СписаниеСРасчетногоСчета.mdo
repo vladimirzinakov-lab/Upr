@@ -68,7 +68,6 @@
   <defaultObjectForm>Document.СписаниеСРасчетногоСчета.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.СписаниеСРасчетногоСчета.Form.ФормаСписка</defaultListForm>
   <registerRecordsDeletion>AutoDelete</registerRecordsDeletion>
-  <registerRecords>AccumulationRegister.Поставщики</registerRecords>
   <registerRecords>AccumulationRegister.Расходы</registerRecords>
   <registerRecords>AccumulationRegister.Банк</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>

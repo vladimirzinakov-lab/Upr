@@ -53,11 +53,4 @@
     </synonym>
     <comment>(Общ)</comment>
   </enumValues>
-  <enumValues uuid="f24a4343-c107-4327-8988-c72db7d70c8a">
-    <name>РасходСчетМиша</name>
-    <synonym>
-      <key>ru</key>
-      <value>Расход счет Миша</value>
-    </synonym>
-  </enumValues>
 </mdclass:Enum>

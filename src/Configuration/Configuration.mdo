@@ -58,12 +58,10 @@
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Контакты</catalogs>
   <documents>Document.Реализация</documents>
-  <documents>Document.Поступление</documents>
   <documents>Document.ПриходныйКассовыйОрдер</documents>
   <documents>Document.РасходныйКассовыйОрдер</documents>
   <documents>Document.ПоступлениеНаРасчетныйСчет</documents>
   <documents>Document.СписаниеСРасчетногоСчета</documents>
-  <documents>Document.КорректировкаДолгаПоставщику</documents>
   <enums>Enum.ВидыОплаты</enums>
   <enums>Enum.ВидыОперацийПоступлениеДенежныхСредств</enums>
   <enums>Enum.ВидыОперацийСписаниеДенежныхСредств</enums>
@@ -87,7 +85,6 @@
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <informationRegisters>InformationRegister.Сообщения</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Покупатели</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.Поставщики</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Банк</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Расходы</accumulationRegisters>

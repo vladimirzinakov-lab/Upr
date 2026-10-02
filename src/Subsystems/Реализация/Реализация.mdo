@@ -20,9 +20,7 @@
   <content>Report.Касса</content>
   <content>Report.Банк</content>
   <content>AccumulationRegister.Доходы</content>
-  <content>AccumulationRegister.Поставщики</content>
   <content>Report.ВедомостьПоПоставщикам</content>
   <subsystems>Касса</subsystems>
   <subsystems>Банк</subsystems>
-  <subsystems>Поступление</subsystems>
 </mdclass:Subsystem>

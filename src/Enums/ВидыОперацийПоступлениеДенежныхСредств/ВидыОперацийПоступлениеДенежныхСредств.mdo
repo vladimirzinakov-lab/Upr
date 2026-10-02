@@ -44,11 +44,4 @@
       <value>Прочее поступление</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="dec6cb3f-e0c9-49e7-a06f-ae3e210083ac">
-    <name>ПоступлениеНаСчетМиша</name>
-    <synonym>
-      <key>ru</key>
-      <value>Поступление на счет Миша</value>
-    </synonym>
-  </enumValues>
 </mdclass:Enum>
