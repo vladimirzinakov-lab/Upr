@@ -123,10 +123,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="8924cd7d-215a-419d-8dfa-30bac4137cac">
-    <name>СодержаениеРаботы</name>
+    <name>СодержаниеРаботы</name>
     <synonym>
       <key>ru</key>
-      <value>Содержаение работы</value>
+      <value>Содержание работы</value>
     </synonym>
     <type>
       <types>String</types>
