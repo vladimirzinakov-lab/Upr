@@ -28,7 +28,10 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <compatibilityMode>8.3.13</compatibilityMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
+  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="f5cd04e7-e636-4a6a-8d86-f9dc60bd48e3">
     <name>Русский</name>
     <synonym>
@@ -75,10 +78,10 @@
   <reports>Report.Расходы</reports>
   <reports>Report.Доходы</reports>
   <reports>Report.Прибыль</reports>
-  <reports>Report.ДенежныеСредстваМесяц</reports>
-  <reports>Report.ДенежныеСредстваДень</reports>
   <reports>Report.СтруктураРасходов</reports>
   <reports>Report.СтатьиРасходовПомесячно</reports>
+  <reports>Report.ДенежныеСредстваМесяц</reports>
+  <reports>Report.ДенежныеСредстваДень</reports>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <informationRegisters>InformationRegister.Сообщения</informationRegisters>

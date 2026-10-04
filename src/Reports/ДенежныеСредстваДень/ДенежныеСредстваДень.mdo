@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b54a79c-b97a-437f-9bb2-1d2b3bfa8027">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="103aaaf1-edf8-4f32-8747-ce276cf0c882">
   <producedTypes>
-    <objectType typeId="730b41cc-3532-4d9e-87f5-d7f3737750c5" valueTypeId="109a9afe-b1e2-4ce4-9541-0395829244f5"/>
-    <managerType typeId="11c80ae6-ad9e-4a3e-877a-bb646bb2493b" valueTypeId="7e802a7f-65f4-4f9b-af6e-aae879b086fe"/>
+    <objectType typeId="ce9a3d84-3151-47f8-a33c-75ce1a6794b2" valueTypeId="d00ae67b-5cd4-4de7-9d60-2a8b17f5cada"/>
+    <managerType typeId="aea45cbd-0a36-4462-a8fa-b473aa21192c" valueTypeId="94992ff4-9e26-45e9-a8ca-c8f65b2da2df"/>
   </producedTypes>
   <name>ДенежныеСредстваДень</name>
   <synonym>
@@ -10,18 +10,8 @@
     <value>Денежные средства, по дням</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>Report.ДенежныеСредстваДень.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ДенежныеСредстваДень.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
-  <forms uuid="4230cd3e-db05-40a6-8f07-bbe5f26cf85f">
-    <name>ФормаОтчета</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма отчета</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <templates uuid="ac3784dd-0156-41fd-9c58-986dc53514dd">
+  <templates uuid="8a0b9432-605a-4a0e-8e08-7dba98759514">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

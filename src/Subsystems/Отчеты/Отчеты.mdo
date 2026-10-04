@@ -11,8 +11,9 @@
     <picture>CommonPicture.ПодсистемаМониторингЦелевыхПоказателей</picture>
   </picture>
   <content>Report.Прибыль</content>
-  <content>Report.ДенежныеСредстваМесяц</content>
-  <content>Report.ДенежныеСредстваДень</content>
+  <content>9b54a79c-b97a-437f-9bb2-1d2b3bfa8027</content>
   <content>Report.СтруктураРасходов</content>
   <content>Report.СтатьиРасходовПомесячно</content>
+  <content>Report.ДенежныеСредстваМесяц</content>
+  <content>Report.ДенежныеСредстваДень</content>
 </mdclass:Subsystem>
