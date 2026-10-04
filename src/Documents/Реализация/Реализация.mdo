@@ -104,24 +104,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9ee94583-1785-4a85-8b70-ba493024917d">
-    <name>НовыйКонтакт</name>
-    <synonym>
-      <key>ru</key>
-      <value>Новый контакт</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="d4a1eeb3-bda3-4857-b980-d781c834ca69">
     <name>Контакт</name>
     <synonym>
