@@ -148,24 +148,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9abf57f4-ecac-4705-96d8-dd434abd859f">
-    <name>Руководитель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Руководитель</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="2336a161-33b7-426e-8913-20ec9e1e965c">
     <name>Адрес</name>
     <synonym>
@@ -225,22 +207,6 @@
     <synonym>
       <key>ru</key>
       <value>Комментарий</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="d2473b1e-e762-4312-9032-a91c010c5b19">
-    <name>СодержаниеРаботы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Содержание работы</value>
     </synonym>
     <type>
       <types>String</types>

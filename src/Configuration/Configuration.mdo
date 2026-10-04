@@ -42,8 +42,8 @@
   </languages>
   <subsystems>Subsystem.Реализация</subsystems>
   <subsystems>Subsystem.Справочники</subsystems>
-  <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.Настройка</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
   <commonPictures>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаМониторингЦелевыхПоказателей</commonPictures>
   <commonPictures>CommonPicture.ПодсистемаНормативноСправочнаяИнформация</commonPictures>
