@@ -84,6 +84,7 @@
   <reports>Report.ДенежныеСредстваДень</reports>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
+  <dataProcessors>DataProcessor.ПереносКонтактов</dataProcessors>
   <informationRegisters>InformationRegister.Сообщения</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Покупатели</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Касса</accumulationRegisters>
