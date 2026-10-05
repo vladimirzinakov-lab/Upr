@@ -250,24 +250,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="aedb15a4-4e5d-4843-a3b9-43803d6fe898">
-    <name>Назначение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Назначение платежа</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="43bf70bf-c1e8-4570-a1d3-4b2fddc90394">
     <name>НеВключатьВРасходы</name>
     <synonym>
