@@ -51,6 +51,7 @@
   <commonPictures>CommonPicture.ПодсистемаФинансы</commonPictures>
   <commonPictures>CommonPicture.Сумма</commonPictures>
   <commandGroups>CommandGroup.Печать</commandGroups>
+  <commonForms>CommonForm.ДвиженияДокумента</commonForms>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
