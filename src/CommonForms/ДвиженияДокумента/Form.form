@@ -442,9 +442,9 @@
       <id>5</id>
       <valueType>
         <types>CatalogRef.Кассы</types>
-        <types>CatalogRef.Счета</types>
         <types>CatalogRef.Статьи</types>
         <types>CatalogRef.Контрагенты</types>
+        <types>CatalogRef.Счета</types>
       </valueType>
       <view>
         <common>true</common>

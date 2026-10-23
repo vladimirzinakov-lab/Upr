@@ -8,7 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Контрагенты</content>
-  <content>Catalog.Договоры</content>
   <content>Catalog.Контакты</content>
   <parentSubsystem>Subsystem.Справочники</parentSubsystem>
 </mdclass:Subsystem>

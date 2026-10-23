@@ -128,7 +128,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="908ad124-aa3f-4567-aab7-8ee67e5afb9a">
+  <forms uuid="36cc14fa-1680-4141-b6bc-8b016f9afae2">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

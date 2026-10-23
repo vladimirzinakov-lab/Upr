@@ -53,25 +53,20 @@
   <commandGroups>CommandGroup.Печать</commandGroups>
   <commonForms>CommonForm.ДвиженияДокумента</commonForms>
   <catalogs>Catalog.Контрагенты</catalogs>
-  <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.Кассы</catalogs>
   <catalogs>Catalog.Счета</catalogs>
   <catalogs>Catalog.Статьи</catalogs>
-  <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Контакты</catalogs>
   <documents>Document.Реализация</documents>
   <documents>Document.ПриходныйКассовыйОрдер</documents>
   <documents>Document.РасходныйКассовыйОрдер</documents>
   <documents>Document.ПоступлениеНаРасчетныйСчет</documents>
   <documents>Document.СписаниеСРасчетногоСчета</documents>
-  <enums>Enum.ВидыОплаты</enums>
   <enums>Enum.ВидыОперацийПоступлениеДенежныхСредств</enums>
   <enums>Enum.ВидыОперацийСписаниеДенежныхСредств</enums>
   <enums>Enum.ВидыОперацийПКО</enums>
   <enums>Enum.ВидыОперацийРКО</enums>
-  <enums>Enum.СпособыВыводаОтчета</enums>
-  <enums>Enum.СостояниеДокументаНачисления</enums>
   <reports>Report.ОСВ</reports>
   <reports>Report.ВедомостьПоПокупателям</reports>
   <reports>Report.Касса</reports>
